@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.development_section{
+    width: auto;
+    height: 200px;
+}
+
+.subtitle{
+    
+    padding: 10px;
+    font-weight: bold;
+}
+
+input{
+    font-size: large;
+    height: 30px;
+}
+
+.btn_1{
+    background-color: rgb(82, 82, 226);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn_2{
+    background-color:red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+    padding: 10px;
+    margin: 0 10px 15px 0;
+    float: right;
+    font-weight: bolder;
+}
+
+
+.btn:hover{
+    opacity: 80%;
+}
+
+ul{
+    font: large bold;
+    padding: 10px;
+}
+
+li{
+    border: 2px solid green;
+    padding: 25px 0 0 10px;
+    clear: both;
+    list-style-type: none;
+    cursor: pointer;
+    float: left;
+    width:600px ;
+    text-align: left;
+    margin: 15px 0 0 0;
+    border-radius: 10px;
+}
+
+li:hover{
+
+}
+
+.btn-danger{
+    .btn
+}
+
+.delete{
+    display: none;
+}
+
+li:hover,.done{
+    background: green;
+    color: white;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.space{
+    height:80px;
+    clear: both;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+}
+
+.rodape{
+    width: auto;
+}
